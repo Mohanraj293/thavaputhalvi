@@ -6,10 +6,10 @@ import {
   MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
-  MDBNavbarLink,
   MDBIcon,
   MDBCollapse,
 } from "mdb-react-ui-kit";
+import { NavLink } from "react-router-dom";
 
 export default function App() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -17,7 +17,15 @@ export default function App() {
   return (
     <MDBNavbar expand="lg" dark className="MDBNavbar">
       <MDBContainer fluid>
-        <MDBNavbarBrand href="/"><strong>தவப்புதல்வி</strong></MDBNavbarBrand>
+        <MDBNavbarBrand>
+          <NavLink
+            to="/"
+            style={{ backgroundColor: "#000080", color: "white" }}
+            className="brand"
+          >
+            <strong>தவப்புதல்வி</strong>
+          </NavLink>
+        </MDBNavbarBrand>
         <MDBNavbarToggler
           type="button"
           data-target="#navbarCenteredExample"
@@ -35,24 +43,24 @@ export default function App() {
           className="justify-content-center"
         >
           <MDBNavbarNav fullWidth={false} className="mb-2 mb-lg-0">
-            <MDBNavbarLink active aria-current="page" href="/" className="pe-3">
+            <NavLink to="/" className="pe-3">
               முகப்பு
-            </MDBNavbarLink>
-            <MDBNavbarLink active href="/நிர்வாகம்" className="pe-3">
+            </NavLink>
+            <NavLink to="/நிர்வாகம்" className="pe-3">
               நிர்வாகம்
-            </MDBNavbarLink>
-            <MDBNavbarLink active href="/ஆசிரியர்-குழு" className="pe-3">
+            </NavLink>
+            <NavLink to="/ஆசிரியர்-குழு" className="pe-3">
               ஆசிரியர் குழு
-            </MDBNavbarLink>
-            <MDBNavbarLink active href="/இதழ்கள்" className="pe-3">
+            </NavLink>
+            <NavLink to="/இதழ்கள்" className="pe-3">
               இதழ்கள்
-            </MDBNavbarLink>
-            <MDBNavbarLink active href="/நிகழ்வுகள்" className="pe-3">
+            </NavLink>
+            <NavLink to="/நிகழ்வுகள்" className="pe-3">
               நிகழ்வுகள்
-            </MDBNavbarLink>
-            <MDBNavbarLink active href="/தொடர்பு-கொள்ள" className="pe-3">
+            </NavLink>
+            <NavLink to="/தொடர்பு-கொள்ள" className="pe-3">
               தொடர்பு கொள்ள
-            </MDBNavbarLink>
+            </NavLink>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>

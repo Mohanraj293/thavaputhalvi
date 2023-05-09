@@ -7,11 +7,13 @@ import Ithazgal from "./components/Ithazgal";
 import Nigazhvugal from "./components/Nigazhvugal";
 import Nirvagam from "./components/Nirvagam";
 import PageNotFound from "./components/PageNotFound";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/நிர்வாகம்" element={<Nirvagam />}></Route>
