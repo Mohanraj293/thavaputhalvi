@@ -3,7 +3,6 @@ import "../css/Navbar.css";
 import {
   MDBContainer,
   MDBNavbar,
-  MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarNav,
   MDBIcon,
@@ -15,17 +14,24 @@ export default function App() {
   const [showNavCentred, setShowNavCentred] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" dark className="MDBNavbar">
+    <MDBNavbar
+      expand="lg"
+      dark
+      className="navbar"
+      style={{ paddingTop: "15px", paddingBottom: "15px" }}
+    >
       <MDBContainer fluid>
-        <MDBNavbarBrand>
-          <NavLink
-            to="/"
-            style={{ backgroundColor: "#000080", color: "white" }}
-            className="brand"
-          >
-            <strong>தவப்புதல்வி</strong>
-          </NavLink>
-        </MDBNavbarBrand>
+        <NavLink
+          to="/"
+          style={{
+            backgroundColor: "#000080",
+            color: "white",
+          }}
+          className="brand"
+        >
+          <strong>தவப்புதல்வி</strong>
+        </NavLink>
+
         <MDBNavbarToggler
           type="button"
           data-target="#navbarCenteredExample"
