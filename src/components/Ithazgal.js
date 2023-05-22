@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function Ithazgal() {
-  document.title = "தவப்புதல்வி - இதழ்கள்";
+const Ithazgal = ({ title }) => {
+  document.title = title;
   return <div>ithal</div>;
-}
+};
+
+export default Ithazgal;

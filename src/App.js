@@ -15,13 +15,13 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/நிர்வாகம்" element={<Nirvagam />}></Route>
-          <Route path="/ஆசிரியர்-குழு" element={<Aasiriyarkuzhu />}></Route>
-          <Route path="/இதழ்கள்" element={<Ithazgal />}></Route>
-          <Route path="/நிகழ்வுகள்" element={<Nigazhvugal />}></Route>
-          <Route path="/தொடர்பு-கொள்ள" element={<Contact />}></Route>
-          <Route path="*" element={<PageNotFound />}></Route>
+          <Route path="/" element={<Home title="தவப்புதல்வி"/>}></Route>
+          <Route path="/நிர்வாகம்" element={<Nirvagam title="நிர்வாகம்"/>}></Route>
+          <Route path="/ஆசிரியர்-குழு" element={<Aasiriyarkuzhu title="ஆசிரியர்-குழு"/>}></Route>
+          <Route path="/இதழ்கள்" element={<Ithazgal title="இதழ்கள்"/>}></Route>
+          <Route path="/நிகழ்வுகள்" element={<Nigazhvugal title="நிகழ்வுகள்"/>}></Route>
+          <Route path="/தொடர்பு-கொள்ள" element={<Contact title="தொடர்பு-கொள்ள"/>}></Route>
+          <Route path="*" element={<PageNotFound title="தவறான பதிவு"/>}></Route>
         </Routes>
       </Router>
     </div>

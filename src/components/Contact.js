@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function Contact() {
-  document.title = "தவப்புதல்வி - தொடர்பு கொள்ள";
+const Contact = ({ title }) => {
+  document.title = title;
   return <div>contact</div>;
-}
+};
+
+export default Contact;

@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function Nirvagam() {
-  document.title = "தவப்புதல்வி - நிர்வாகம்";
+const Nirvagam = ({ title }) => {
+  document.title = title;
   return <div>nirvagam</div>;
-}
+};
+
+export default Nirvagam;

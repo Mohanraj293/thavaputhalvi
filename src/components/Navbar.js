@@ -10,25 +10,18 @@ import {
 } from "mdb-react-ui-kit";
 import { NavLink } from "react-router-dom";
 
-export default function App() {
+function Navbar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
+  const navBarStyleContainer = {
+    backgroundColor: "#000080",
+    color: "white",
+  };
 
+  const navBarStyle = { paddingTop: "15px", paddingBottom: "15px" };
   return (
-    <MDBNavbar
-      expand="lg"
-      dark
-      className="navbar"
-      style={{ paddingTop: "15px", paddingBottom: "15px" }}
-    >
+    <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
-        <NavLink
-          to="/"
-          style={{
-            backgroundColor: "#000080",
-            color: "white",
-          }}
-          className="brand"
-        >
+        <NavLink to="/" style={navBarStyleContainer} className="brand">
           <strong>தவப்புதல்வி</strong>
         </NavLink>
 
@@ -73,3 +66,5 @@ export default function App() {
     </MDBNavbar>
   );
 }
+
+export default Navbar;

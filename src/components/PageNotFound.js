@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function PageNotFound() {
-  document.title = "தவறான பதிவு";
+const PageNotFound = ({ title }) => {
+  document.title = title;
   return <div>PageNotFound</div>;
-}
+};
+
+export default PageNotFound;

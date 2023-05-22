@@ -1,8 +1,12 @@
 import React from "react";
 
-function Home() {
-  document.title = "தவப்புதல்வி";
-  return <div>home</div>;
-}
+const Home = ({ title }) => {
+  document.title = title;
+  return (
+    <>
+      <div></div>
+    </>
+  );
+};
 
 export default Home;
