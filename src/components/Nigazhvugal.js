@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nigazhvugal = ({ title }) => {
+const Nigazhvugal = ({title}) => {
   document.title = title;
   return <div>nigal</div>;
 };
