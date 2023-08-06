@@ -9,6 +9,8 @@ import {
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import { NavLink } from "react-router-dom";
+import banner from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
+import logo from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 
 function Navbar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -22,7 +24,22 @@ function Navbar() {
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
         <NavLink to="/" style={navBarStyleContainer} className="brand">
-          <strong>தவப்புதல்வி</strong>
+          <a href="">
+            <img
+              style={{ padding: "5px" }}
+              src={logo}
+              height="50"
+              width="50"
+              alt="logo"
+            />
+            <img
+              style={{ padding: "5px" }}
+              src={banner}
+              height="40"
+              width="110"
+              alt="banner"
+            />
+          </a>
         </NavLink>
 
         <MDBNavbarToggler
