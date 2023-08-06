@@ -24,12 +24,12 @@ function Navbar() {
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
         <NavLink to="/" style={navBarStyleContainer} className="brand">
-          <a href="">
+          <a href="/">
             <img
               style={{ padding: "5px" }}
               src={logo}
-              height="50"
-              width="50"
+              height="40"
+              width="40"
               alt="logo"
             />
             <img
