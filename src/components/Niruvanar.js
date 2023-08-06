@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Niruvanar.css'
 import image1 from "../assets/niruvanar-images/image1.png";
 import image2 from "../assets/niruvanar-images/image2.png";
 import image3 from "../assets/niruvanar-images/image3.png";
