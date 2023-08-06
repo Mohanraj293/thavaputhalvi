@@ -65,6 +65,9 @@ function Navbar() {
             <NavLink to="/நிர்வாகம்" className="pe-3">
               நிர்வாகம்
             </NavLink>
+            <NavLink to="/நிறுவனர்" className="pe-3">
+              நிறுவனர்
+            </NavLink>
             <NavLink to="/ஆசிரியர்-குழு" className="pe-3">
               ஆசிரியர் குழு
             </NavLink>
