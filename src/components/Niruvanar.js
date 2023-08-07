@@ -9,7 +9,7 @@ import image5 from "../assets/niruvanar-images/image5.png";
 const Niruvanar = ({ title }) => {
   document.title = title;
   return (
-    <div>
+    <div className="niruvanar">
       <h1>நிறுவனர்</h1>
       <img src={image1} alt="" />
       <img src={image2} alt="" />

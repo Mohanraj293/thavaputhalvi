@@ -1,11 +1,13 @@
 import React from "react";
-
+import '../css/Home.css'
+import image from '../assets/home-images/THAVAPUTHALVI  LOGO.png'
 const Home = ({ title }) => {
   document.title = title;
   return (
-    <div>
+    <div className="homediv">
       <h1>தவப்புதல்வி</h1>
-      <p>(தமிழ் காலாண்டிதழ்)</p>
+      <img src={image} height={200} width={200} alt="home logo"/>
+      <h4>(தமிழ் காலாண்டிதழ்)</h4>
       <p>தவப்புதல்வி - காலாண்டிதழ், நீயே உன்னால்</p>
       <p>
         உனக்காக அறக்கட்டளை மற்றும் பதிப்பகத்தின் (OF BY AND FOR YOU TRUST - Reg.

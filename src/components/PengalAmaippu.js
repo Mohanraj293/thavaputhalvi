@@ -1,10 +1,11 @@
 import React from "react";
-import image from '../assets/pengal-amaippu-images/image2.png'
+import image from "../assets/pengal-amaippu-images/image2.png";
+import "../css/PengalAmaippu.css";
 
 const PengalAmaippu = ({ title }) => {
   document.title = title;
   return (
-    <div>
+    <div className="pengal">
       <h1>தவப்புதல்வி</h1>
       <p>
         நீயே உன்னால் உனக்காக அறக்கட்டளையின் நோக்கத்தின் அடிப்படையில்
@@ -16,7 +17,7 @@ const PengalAmaippu = ({ title }) => {
         பெண்கள் அதிகாரம் மற்றும் குழந்தைகள் மேம்பாடு சங்கம் தமிழ்நாடு, இந்தியா
         Email: awecdyoutrust@gmail.com Call / Whatsapp : +91-9585212775
       </p>
-      <img src={image} alt=""/>
+      <img src={image} alt="" />
       <h2>இலக்கு</h2>
       <p>
         பெண்ணுக்கு கல்வி மற்றும் அதிகாரம் அளித்து, மேம்படுத்தி சமூகத்தில் சரியான
@@ -25,7 +26,14 @@ const PengalAmaippu = ({ title }) => {
       </p>
 
       <h2>நோக்கம்</h2>
-      <ul>
+      <ul
+        style={{
+          display: "grid",
+          textAlign: "left",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <li>
           உடல் மற்றும் மன ஆரோக்கிய விழிப்புணர்வு மற்றும் மருத்துவ முகாம்களை
           நடத்துதல்

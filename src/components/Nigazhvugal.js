@@ -17,34 +17,34 @@ const Nigazhvugal = ({ title }) => {
     <div>
       <div class="gallery">
         <div class="gallery-item">
-          <img src={image1} alt="Image 1" />
+          <img src={image1} alt="Nigalvugal 1" />
         </div>
         <div class="gallery-item">
-          <img src={image2} alt="Image 2" />
+          <img src={image2} alt="Nigalvugal 2" />
         </div>
         <div class="gallery-item">
-          <img src={image3} alt="Image 3" />
+          <img src={image3} alt="Nigalvugal 3" />
         </div>
         <div class="gallery-item">
-          <img src={image4} alt="Image 4" />
+          <img src={image4} alt="Nigalvugal 4" />
         </div>
         <div class="gallery-item">
-          <img src={image5} alt="Image 5" />
+          <img src={image5} alt="Nigalvugal 5" />
         </div>
         <div class="gallery-item">
-          <img src={image6} alt="Image 6" />
+          <img src={image6} alt="Nigalvugal 6" />
         </div>
         <div class="gallery-item">
-          <img src={image7} alt="Image 7" />
+          <img src={image7} alt="Nigalvugal 7" />
         </div>
         <div class="gallery-item">
-          <img src={image8} alt="Image 8" />
+          <img src={image8} alt="Nigalvugal 8" />
         </div>
         <div class="gallery-item">
-          <img src={image9} alt="Image 9" />
+          <img src={image9} alt="Nigalvugal 9" />
         </div>
         <div class="gallery-item">
-          <img src={image10} alt="Image 10" />
+          <img src={image10} alt="Nigalvugal 10" />
         </div>
       </div>
     </div>

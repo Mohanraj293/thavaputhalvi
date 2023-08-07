@@ -1,12 +1,12 @@
 import React from "react";
-import '../css/Nirvagam.css'
+import "../css/Nirvagam.css";
 import image1 from "../assets/nivagam-images/image1.png";
 import image2 from "../assets/nivagam-images/image3.png";
 
 const Nirvagam = ({ title }) => {
   document.title = title;
   return (
-    <div>
+    <div className="nirvagam">
       <h1>தவப்புதல்வி காலாண்டிதழ்</h1>
       <p>நீயே உன்னால் உனக்காக அறக்கட்டளையின் கீழ் செயல்படும் ஒரு அமைப்பு</p>
       <p>நீயே உன்னால் உனக்காக அறக்கட்டளை</p>
@@ -37,14 +37,21 @@ const Nirvagam = ({ title }) => {
         பயனுள்ள வகையில் நல்ல பல தொண்டு செய்து மாற்றத்தை எதிர் நோக்கி நகர்கிறது.
       </p>
       <h2>அறக்கட்டளையின் முக்கியச் செயல்பாடுகள் :</h2>
-      <ul>
+      <ul
+        style={{
+          display: "grid",
+          textAlign: "left",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <li>ஆராய்ச்சி மற்றும் பதிப்பு</li>
         <li>திறன் மேம்பாடு மற்றும் பயிற்சி</li>
         <li>பெண்கள் ஆரோக்கியம் மற்றும் விழிப்புணர்வு</li>
         <li>கல்வி மற்றும் குழந்தைகள் மேம்பாடு</li>
         <li>பெண்கள் தொழில்முனைவு பயிற்சி, திறன் மற்றும் ஆளுமை வளர்ச்சி</li>
       </ul>
-      <img src={image2}/>
+      <img src={image2} />
       <p>நிறுவன தலைவி</p>
       <p>முனைவர். சுபத்ரா செல்லத்துரை</p>
       <p>அறக்கட்டளை பதிவு எண்.198/ B4 – 2017</p>
@@ -56,8 +63,7 @@ const Nirvagam = ({ title }) => {
       </p>
       <p>Email: ofbyandforyou@gmail.com,</p>
       <p>
-        Web:{" "}
-        <a href="https://www.capeforumyoutrust.org">
+        <a href="https://www.capeforumyoutrust.org" target="_blank">
           https://www.capeforumyoutrust.org
         </a>
       </p>

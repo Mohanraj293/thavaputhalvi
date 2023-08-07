@@ -1,6 +1,17 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+.nirvagam {
+  text-align: center;
+}
+
+div h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+div p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 h1 {
