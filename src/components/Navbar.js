@@ -71,14 +71,14 @@ function Navbar() {
             <NavLink to="/ஆசிரியர்-குழு" className="pe-3">
               ஆசிரியர் குழு
             </NavLink>
+            <NavLink to="/பெண்கள்அமைப்பு" className="pe-3">
+              பெண்கள்அமைப்பு
+            </NavLink>
             <NavLink to="/இதழ்கள்" className="pe-3">
               இதழ்கள்
             </NavLink>
             <NavLink to="/நிகழ்வுகள்" className="pe-3">
               நிகழ்வுகள்
-            </NavLink>
-            <NavLink to="/தொடர்பு-கொள்ள" className="pe-3">
-              தொடர்பு கொள்ள
             </NavLink>
           </MDBNavbarNav>
         </MDBCollapse>
