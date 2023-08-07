@@ -1,14 +1,14 @@
 import React from "react";
 import { MDBTable, MDBTableHead, MDBTableBody } from "mdb-react-ui-kit";
 import Ithaz from "./Ithaz";
-import AprilPdf from '../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf'
+import AprilPdf from "../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf";
 
 const Ithazgal = ({ title }) => {
   document.title = title;
 
   const books = [
     {
-      title: "Book 1",
+      title: "APRIL-JUNE-ISSUE-2023",
       label: "Author 1",
       year: 2020,
       pdfUrl: AprilPdf,
@@ -16,9 +16,10 @@ const Ithazgal = ({ title }) => {
   ];
 
   return (
-    <div style={{ margin: "100px" }}>
-      <MDBTable striped responsive>
-        <MDBTableHead>
+    <div style={{ padding: "10px" }}>
+      <h1 style={{ textAlign: "center" }}>இதழ்கள்</h1>
+      <MDBTable bordered responsive>
+        <MDBTableHead light>
           <tr>
             <th scope="col">#</th>
             <th scope="col">Book Name</th>
@@ -28,7 +29,7 @@ const Ithazgal = ({ title }) => {
         <MDBTableBody>
           {books.map((book, index) => (
             <Ithaz
-              index={index}
+              index={index + 1}
               title={book.title}
               year={book.year}
               pdfUrl={book.pdfUrl}

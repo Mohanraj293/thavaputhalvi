@@ -1,20 +1,21 @@
 import React from "react";
-import '../css/Nigalvugal.css'
-import image1 from '../assets/nigalvugal-images/image1.jpg'
-import image2 from '../assets/nigalvugal-images/image2.jpg'
-import image3 from '../assets/nigalvugal-images/image3.jpg'
-import image4 from '../assets/nigalvugal-images/image4.jpg'
-import image5 from '../assets/nigalvugal-images/image5.jpg'
-import image6 from '../assets/nigalvugal-images/image6.jpg'
-import image7 from '../assets/nigalvugal-images/image7.jpg'
-import image8 from '../assets/nigalvugal-images/image8.jpg'
-import image9 from '../assets/nigalvugal-images/image9.jpg'
-import image10 from '../assets/nigalvugal-images/image10.jpg'
+import "../css/Nigalvugal.css";
+import image1 from "../assets/nigalvugal-images/image1.jpg";
+import image2 from "../assets/nigalvugal-images/image2.jpg";
+import image3 from "../assets/nigalvugal-images/image3.jpg";
+import image4 from "../assets/nigalvugal-images/image4.jpg";
+import image5 from "../assets/nigalvugal-images/image5.jpg";
+import image6 from "../assets/nigalvugal-images/image6.jpg";
+import image7 from "../assets/nigalvugal-images/image7.jpg";
+import image8 from "../assets/nigalvugal-images/image8.jpg";
+import image9 from "../assets/nigalvugal-images/image9.jpg";
+import image10 from "../assets/nigalvugal-images/image10.jpg";
 
 const Nigazhvugal = ({ title }) => {
   document.title = title;
   return (
     <div>
+      <h1 style={{ textAlign: "center", marginTop: "10px" }}>நிகழ்வுகள்</h1>
       <div class="gallery">
         <div class="gallery-item">
           <img src={image1} alt="Nigalvugal 1" />
