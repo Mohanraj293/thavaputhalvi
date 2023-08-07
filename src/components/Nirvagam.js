@@ -10,7 +10,7 @@ const Nirvagam = ({ title }) => {
       <h1>தவப்புதல்வி காலாண்டிதழ்</h1>
       <p>நீயே உன்னால் உனக்காக அறக்கட்டளையின் கீழ் செயல்படும் ஒரு அமைப்பு</p>
       <p>நீயே உன்னால் உனக்காக அறக்கட்டளை</p>
-      <img src={image1} alt="" />
+      <img src={image1} alt="logo" />
       <p>
         நீயே உன்னால் உனக்காக அறக்கட்டளை, இந்திய அறக்கட்டளை சட்டம் 1882ன் கீழ்
         பதிவு செய்யப்பட்டுள்ளது, இந்த அறக்கட்டளையின் நோக்கத்தை முன்னிறுத்திய
@@ -63,7 +63,7 @@ const Nirvagam = ({ title }) => {
       </p>
       <p>Email: ofbyandforyou@gmail.com,</p>
       <p>
-        <a href="https://www.capeforumyoutrust.org" target="_blank">
+        <a href="https://www.capeforumyoutrust.org" target="_blank" rel="noreferrer">
           https://www.capeforumyoutrust.org
         </a>
       </p>
