@@ -28,13 +28,15 @@ const Ithazgal = ({ title }) => {
     <div style={{ padding: "10px" }}>
       <h1 style={{ textAlign: "center" }}>இதழ்கள்</h1>
       <div>
-        {books.map((book) => (
+        {books.map((book, i) => (
+          <div key={i}>
           <Ithaz
             image={book.label}
             title={book.title}
             year={book.year}
             pdfUrl={book.pdfUrl}
           />
+          </div>
         ))}
       </div>
     </div>

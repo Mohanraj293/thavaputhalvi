@@ -19,27 +19,29 @@ function Navbar() {
     color: "white",
   };
 
-  const navBarStyle = { paddingTop: "15px", paddingBottom: "15px", backgroundColor: "#c2258d" };
+  const navBarStyle = {
+    paddingTop: "15px",
+    paddingBottom: "15px",
+    backgroundColor: "#c2258d",
+  };
   return (
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
         <NavLink to="/" style={navBarStyleContainer} className="brand">
-          <a href="/">
-            <img
-              style={{ padding: "5px" }}
-              src={logo}
-              height="40"
-              width="40"
-              alt="logo"
-            />
-            <img
-              style={{ padding: "5px" }}
-              src={banner}
-              height="40"
-              width="110"
-              alt="banner"
-            />
-          </a>
+          <img
+            style={{ padding: "5px" }}
+            src={logo}
+            height="40"
+            width="40"
+            alt="logo"
+          />
+          <img
+            style={{ padding: "5px" }}
+            src={banner}
+            height="40"
+            width="110"
+            alt="banner"
+          />
         </NavLink>
 
         <MDBNavbarToggler
