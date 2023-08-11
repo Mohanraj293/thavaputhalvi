@@ -1,5 +1,4 @@
 import React from "react";
-import { MDBTable, MDBTableHead, MDBTableBody } from "mdb-react-ui-kit";
 import "../css/Ithazgal.css";
 import Ithaz from "./Ithaz";
 import AprilPdf from "../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf";
