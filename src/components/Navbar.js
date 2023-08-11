@@ -15,14 +15,14 @@ import logo from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 function Navbar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
   const navBarStyleContainer = {
-    backgroundColor: "#c2258d",
+    backgroundColor: "#ff2e99",
     color: "white",
   };
 
   const navBarStyle = {
     paddingTop: "15px",
     paddingBottom: "15px",
-    backgroundColor: "#c2258d",
+    backgroundColor: "#ff2e99",
   };
   return (
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
