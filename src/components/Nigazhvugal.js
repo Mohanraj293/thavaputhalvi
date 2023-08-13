@@ -16,35 +16,35 @@ const Nigazhvugal = ({ title }) => {
   return (
     <div>
       <h1 style={{ textAlign: "center", marginTop: "10px" }}>நிகழ்வுகள்</h1>
-      <div class="gallery">
-        <div class="gallery-item">
+      <div className="gallery">
+        <div className="gallery-item">
           <img src={image1} alt="Nigalvugal 1" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image2} alt="Nigalvugal 2" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image3} alt="Nigalvugal 3" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image4} alt="Nigalvugal 4" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image5} alt="Nigalvugal 5" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image6} alt="Nigalvugal 6" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image7} alt="Nigalvugal 7" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image8} alt="Nigalvugal 8" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image9} alt="Nigalvugal 9" />
         </div>
-        <div class="gallery-item">
+        <div className="gallery-item">
           <img src={image10} alt="Nigalvugal 10" />
         </div>
       </div>

@@ -43,7 +43,7 @@ const Niruvanar = ({ title }) => {
         அங்கீகரிக்கப்பட்டுள்ளது.
       </p>
 
-      <div class="contact-info">
+      <div className="contact-info">
         <p>
           Email:{" "}
           <a href="mailto:ofbyandforyou@gmail.com">ofbyandforyou@gmail.com</a>
@@ -70,7 +70,7 @@ const Niruvanar = ({ title }) => {
         கீழ் பதிவு செய்யப்பட்டுள்ளது)
       </p>
 
-      <div class="contact-info">
+      <div className="contact-info">
         <p>
           E-Mail:{" "}
           <a href="mailto:drcsubathra@gmail.com">drcsubathra@gmail.com</a>
