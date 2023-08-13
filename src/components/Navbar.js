@@ -27,7 +27,12 @@ function Navbar() {
   return (
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
-        <NavLink to="/" style={navBarStyleContainer} className="brand">
+        <NavLink
+          to="/"
+          style={navBarStyleContainer}
+          className="brand"
+          onClick={() => setShowNavCentred(false)}
+        >
           <img
             style={{ padding: "5px" }}
             src={logo}
@@ -60,7 +65,11 @@ function Navbar() {
           id="navbarCenteredExample"
           className="justify-content-center"
         >
-          <MDBNavbarNav fullWidth={false} className="mb-2 mb-lg-0">
+          <MDBNavbarNav
+            fullWidth={false}
+            className="mb-2 mb-lg-0"
+            onClick={() => setShowNavCentred(!showNavCentred)}
+          >
             <NavLink to="/" className="pe-3">
               முகப்பு
             </NavLink>
