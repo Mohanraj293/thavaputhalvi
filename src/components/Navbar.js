@@ -24,6 +24,17 @@ function Navbar() {
     paddingBottom: "15px",
     backgroundColor: "#ff2e99",
   };
+
+  //it will shirnk navs ecach time when it is clicked.
+  const closeNavbar = () => {
+    setShowNavCentred(false);
+  };
+
+  //thats why put it in another funtion to prevent shrinking.
+  const handleNavLinkClick = () => {
+    closeNavbar();
+  };
+
   return (
     <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
       <MDBContainer fluid>
@@ -31,7 +42,7 @@ function Navbar() {
           to="/"
           style={navBarStyleContainer}
           className="brand"
-          onClick={() => setShowNavCentred(false)}
+          onClick={handleNavLinkClick}
         >
           <img
             style={{ padding: "5px" }}
@@ -68,7 +79,7 @@ function Navbar() {
           <MDBNavbarNav
             fullWidth={false}
             className="mb-2 mb-lg-0"
-            onClick={() => setShowNavCentred(!showNavCentred)}
+            onClick={handleNavLinkClick}
           >
             <NavLink to="/" className="pe-3">
               முகப்பு
