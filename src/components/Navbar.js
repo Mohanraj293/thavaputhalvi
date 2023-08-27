@@ -23,6 +23,7 @@ function Navbar() {
     paddingTop: "15px",
     paddingBottom: "15px",
     backgroundColor: "#ff2e99",
+    marginBottom: "400px",
   };
 
   //it will shirnk navs ecach time when it is clicked.
@@ -36,7 +37,13 @@ function Navbar() {
   };
 
   return (
-    <MDBNavbar expand="lg" dark className="navbar" style={navBarStyle}>
+    <MDBNavbar
+      expand="lg"
+      dark
+      className="navbar"
+      style={navBarStyle}
+      fixed="top"
+    >
       <MDBContainer fluid>
         <NavLink
           to="/"

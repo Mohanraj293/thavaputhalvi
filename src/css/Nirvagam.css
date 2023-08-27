@@ -1,5 +1,7 @@
 .nirvagam {
   text-align: center;
+  max-width: 800px;
+  margin: auto;
 }
 
 div h1 {

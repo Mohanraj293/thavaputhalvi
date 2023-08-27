@@ -5,20 +5,28 @@ import image1 from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 const Aasiriyarkuzhu = ({ title }) => {
   document.title = title;
   return (
-    <div className="aasiriyar">
+    <div className="aasiriyar" style={{ marginTop: "70px" }}>
       <h1>
-        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி (தமிழ் காலாண்டிதழ்)
-        தவப்புதல்வி
+        <strong>ஆசிரியர் குழு</strong>
       </h1>
-      <img src={image1} alt="" height={200} width={200}/>
-      <h1>ஆசிரியர் குழு</h1>
+      <div
+        style={{
+          textAlign: "center",
+        }}
+      >
+        <img src={image1} alt="" height={200} width={200} />
+        <h1>
+          காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி (தமிழ் காலாண்டிதழ்)
+          தவப்புதல்வி
+        </h1>
+      </div>
       <p>
         இதழாசிரியர் மற்றும் தொகுப்பாசிரியர் முனைவர். சுபத்ரா செல்லத்துரை M.Com.,
         M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
       </p>
       <p>
         உதவிப் பேராசிரியர் &amp; ஆராய்ச்சி மேற்பார்வையாளர், வணிகவியல் துறை,
-        பயோனியர் குமாரசாமி கல்லூரி, நாகர்கோவில் – 629003, தமிழ்நாடு, இந்தியா
+        பயோனியர் குமாரசாமி கல்லூரி, நாகர்கோவில் - 629003, தமிழ்நாடு, இந்தியா
       </p>
       <p>
         Per-Website:{" "}
@@ -44,7 +52,9 @@ const Aasiriyarkuzhu = ({ title }) => {
       </p>
       <p>Contact: 91-86103 11546 / +91-95852 12775 (Whatsapp)</p>
 
-      <h2>உதவி ஆசிரியர் குழு</h2>
+      <h2>
+        <strong>உதவி ஆசிரியர் குழு</strong>
+      </h2>
       <div>
         <ul
           style={{

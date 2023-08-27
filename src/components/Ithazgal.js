@@ -5,6 +5,7 @@ import AprilPdf from "../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf";
 import JanMarchPdf from "../assets/ithazgal-pdf/JAN-MARCH ISSUE-2023.pdf";
 import JanMarchImage from "../assets/ithazgal-pdf/JAN-MARCH-2023.jpg";
 import AprilImage from "../assets/ithazgal-pdf/APRIL-JUNE-2023.jpg";
+import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 const Ithazgal = ({ title }) => {
   document.title = title;
@@ -21,24 +22,19 @@ const Ithazgal = ({ title }) => {
       year: 2023,
       pdfUrl: AprilPdf,
       label: AprilImage,
-    },
+    }
   ];
 
   return (
-    <div style={{ padding: "10px" }}>
+    <div style={{ padding: "10px", marginTop: "70px" }}>
       <h1 style={{ textAlign: "center" }}>இதழ்கள்</h1>
-      <div>
+      <MDBRow style={{ maxWidth:"1000px", margin:"auto"}}>
         {books.map((book, i) => (
-          <div key={i}>
-          <Ithaz
-            image={book.label}
-            title={book.title}
-            year={book.year}
-            pdfUrl={book.pdfUrl}
-          />
-          </div>
+          <MDBCol key={i}>
+            <Ithaz image={book.label} title={book.title} pdfUrl={book.pdfUrl} />
+          </MDBCol>
         ))}
-      </div>
+      </MDBRow>
     </div>
   );
 };
