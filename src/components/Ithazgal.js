@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/Ithazgal.css";
 import Ithaz from "./Ithaz";
 import AprilPdf from "../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf";
 import JanMarchPdf from "../assets/ithazgal-pdf/JAN-MARCH ISSUE-2023.pdf";
