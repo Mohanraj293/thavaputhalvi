@@ -17,6 +17,7 @@ const Book = ({ title, pdfUrl, image }) => {
             textDecoration: "underline",
             cursor: "pointer",
             textAlign: "center",
+            fontSize:"18px"
           }}
           onClick={handleOpenPDF}
         >

@@ -51,7 +51,7 @@ export default function App() {
       >
         © {new Date().getFullYear()} Copyright
         <a className="text-white" href="https://subathrachelladurai.in/">
-          : Subathra Chelladurai
+          : OF BY AND FOR YOU TRUST
         </a>
       </div>
     </MDBFooter>

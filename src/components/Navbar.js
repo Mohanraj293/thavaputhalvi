@@ -54,15 +54,15 @@ function Navbar() {
           <img
             style={{ padding: "5px" }}
             src={logo}
-            height="40"
-            width="40"
+            height="60"
+            width="60"
             alt="logo"
           />
           <img
             style={{ padding: "5px" }}
             src={banner}
-            height="40"
-            width="110"
+            height="55"
+            width="170"
             alt="banner"
           />
         </NavLink>

@@ -14,8 +14,17 @@ import image10 from "../assets/nigalvugal-images/image10.jpg";
 const Nigazhvugal = ({ title }) => {
   document.title = title;
   return (
-    <div style={{ marginTop: "70px" }}>
-      <h1 style={{ textAlign: "center", marginTop: "10px" }}>நிகழ்வுகள்</h1>
+    <div style={{ marginTop: "88px" }}>
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "10px",
+          color: "#ff2e99",
+          fontWeight: "bold",
+        }}
+      >
+        நிகழ்வுகள்
+      </h1>
       <div className="gallery">
         <div className="gallery-item">
           <img src={image1} alt="Nigalvugal 1" />
