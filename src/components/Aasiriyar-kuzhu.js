@@ -156,7 +156,7 @@ const Aasiriyarkuzhu = ({ title }) => {
         >
           {sub.map((data, i) => (
             <li>
-              <p style={{ color: "#00008B" }}>{data.name}</p>
+              <p style={{ color: "#00008B", marginBottom:"1px", fontWeight:"bold" }}>{data.name}</p>
               <p style={{ color: "#00008B" }}>{data.role}</p>
             </li>
           ))}

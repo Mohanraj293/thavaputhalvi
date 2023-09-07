@@ -19,13 +19,6 @@ const Home = ({ title }) => {
       </div>
 
       <div style={{ margin: "auto", maxWidth: 800, textIndent: "20px" }}>
-        <p style={txtCol}>
-          நீயே உன்னால் உனக்காக அறக்கட்டளை மற்றும் பதிப்பகத்தின் கீழ்
-          வெளியிடப்படும் ஓர் இதழாகும்.
-          <br />
-          (OF BY AND FOR YOU TRUST - Reg. No. 198/B4 - 2017 &amp; PUBLICATION -
-          Reg. No. TN09D0018951)
-        </p>
         <p
           style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}
         >
@@ -46,7 +39,7 @@ const Home = ({ title }) => {
         </p>
 
         <div>
-          <p style={{ fontSize: "17px", color: "#00008B" }}>
+          <p style={{ fontSize: "17px", color: "#00008B", fontWeight: "bold" }}>
             <i>
               முற்போக்கு நோக்கில்
               <br />
@@ -59,7 +52,13 @@ const Home = ({ title }) => {
               மாற்றத்தை நோக்கிய பயணத்தில்
               <br />
               வலம் வருவாள்{" "}
-              <p style={{ color: "#ff2e99", fontSize: "18px" }}>
+              <p
+                style={{
+                  color: "#ff2e99",
+                  fontSize: "18px",
+                  fontWeight: "bold",
+                }}
+              >
                 <strong>தவப்புதல்வி</strong>
               </p>
             </i>
