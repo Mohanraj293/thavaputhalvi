@@ -9,15 +9,24 @@ const Book = ({ title, pdfUrl, image }) => {
   return (
     <>
       <div className="ithaz">
-        <img className="image" src={image} alt="" width={250} height={300} />
+        <img
+          style={{ cursor: "pointer" }}
+          onClick={handleOpenPDF}
+          className="image"
+          src={image}
+          alt=""
+          width={250}
+          height={300}
+        />
       </div>
       <div>
         <p
           style={{
             textDecoration: "underline",
-            cursor: "pointer",
             textAlign: "center",
-            fontSize:"18px"
+            fontSize: "18px",
+            color: "#00008B",
+            cursor: "pointer",
           }}
           onClick={handleOpenPDF}
         >

@@ -6,7 +6,7 @@ import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
 const Home = ({ title }) => {
   document.title = title;
   const txtCol = {
-    color: "#0B0B45",
+    color: "#00008B",
   };
   return (
     <div className="homediv">
@@ -15,7 +15,7 @@ const Home = ({ title }) => {
         <h1>
           <img height={60} width={200} src={thavaputhalvi} alt="" />
         </h1>
-        <h4>(தமிழ் காலாண்டிதழ்)</h4>
+        <h4 style={{ color: "#ff2e99" }}>(தமிழ் காலாண்டிதழ்)</h4>
       </div>
 
       <div style={{ margin: "auto", maxWidth: 800, textIndent: "20px" }}>
@@ -27,7 +27,7 @@ const Home = ({ title }) => {
           Reg. No. TN09D0018951)
         </p>
         <p
-          style={{ marginTop: "20px", textAlign: "justify", color: "#0B0B45" }}
+          style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}
         >
           தவப்புதல்வி காலாண்டிதழ் ஆண்கள், பெண்கள், இளைஞர்கள், தொழில் முனைவோர்,
           குழந்தைகள் என அனைவருக்கும் பயன்படும் வகையில் அமைவதோடு மட்டுமில்லாமல்
@@ -40,13 +40,13 @@ const Home = ({ title }) => {
           பண்பாடு, நாகரீகம் மற்றும் ஆராய்ச்சி படைப்புகளும் முக்கியத்துவம்
           வகிக்கும்.
         </p>
-        <p style={{ textAlign: "justify", color: "#0B0B45" }}>
+        <p style={{ textAlign: "justify", color: "#00008B" }}>
           தமிழில் இவ்வனைத்தையும் தொகுத்து வாசகர்களுக்கு இணைய வழியும்,
           புத்தகமாகவும் வருடத்திற்கு 4 இதழ்கள் வெளியிடப்படும்.
         </p>
 
         <div>
-          <p style={{ fontSize: "17px", color: "#0B0B45" }}>
+          <p style={{ fontSize: "17px", color: "#00008B" }}>
             <i>
               முற்போக்கு நோக்கில்
               <br />

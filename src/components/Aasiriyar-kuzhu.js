@@ -90,7 +90,10 @@ const Aasiriyarkuzhu = ({ title }) => {
   document.title = title;
   return (
     <div className="aasiriyar" style={{ marginTop: "70px" }}>
-      <h1 style={{ color: "#ff2e99", fontWeight: "bold" }}>ஆசிரியர் குழு</h1>
+      {/* <h1 style={{ color: "#ff2e99", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
+      <h2 style={{ color: "#00008B", textAlign: "center" }}>
+        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி (தமிழ் காலாண்டிதழ்)
+      </h2>
       <div
         style={{
           textAlign: "center",
@@ -99,34 +102,31 @@ const Aasiriyarkuzhu = ({ title }) => {
         <img src={image1} alt="" height={200} width={200} />
         <br />
         <img height={60} width={200} src={thavaputhalvi} alt="" />
-        <h2 style={{ color: "#0B0B45" }}>
-          காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி <br /> (தமிழ் காலாண்டிதழ்)
-        </h2>
       </div>
       <h4 style={{ color: "#ff2e99" }}>
-        <strong>இதழாசிரியர் மற்றும் தொகுப்பாசிரியர் </strong>
+        <strong>இதழாசிரியர்</strong>
       </h4>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         முனைவர். சுபத்ரா செல்லத்துரை M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc
         (Psy.), UGC-NET, Ph.D.
       </p>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         உதவிப் பேராசிரியர் &amp; ஆராய்ச்சி மேற்பார்வையாளர், வணிகவியல் துறை,
         பயோனியர் குமாரசாமி கல்லூரி, நாகர்கோவில் - 629003, தமிழ்நாடு, இந்தியா
       </p>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         Per-Website:{" "}
         <a
           rel="noreferrer"
           href="https://subathrachelladurai.in"
           target="_blank"
-          style={{ color: "#0B0B45" }}
+          style={{ color: "#00008B" }}
         >
           https://subathrachelladurai.in
         </a>
         , Off-Website:{" "}
         <a
-          style={{ color: "#0B0B45" }}
+          style={{ color: "#00008B" }}
           rel="noreferrer"
           href="https://thavaputhalvi.in"
           target="_blank"
@@ -134,11 +134,11 @@ const Aasiriyarkuzhu = ({ title }) => {
           https://thavaputhalvi.in
         </a>
       </p>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         Per-E-Mail: drcsubathra@gmail.com , Off-Email:{" "}
         thavaputhalviyoutrust@gmail.com
       </p>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         Contact: 91-86103 11546 / +91-95852 12775 (Whatsapp)
       </p>
       <h4 style={{ color: "#ff2e99" }}>
@@ -156,9 +156,8 @@ const Aasiriyarkuzhu = ({ title }) => {
         >
           {sub.map((data, i) => (
             <li>
-              <p style={{ color: "#0B0B45" }}>{data.role}</p>
-              <p style={{ color: "#0B0B45" }}>{data.name}</p>
-              <p style={{ color: "#0B0B45" }}>{data.email}</p>
+              <p style={{ color: "#00008B" }}>{data.name}</p>
+              <p style={{ color: "#00008B" }}>{data.role}</p>
             </li>
           ))}
         </ul>

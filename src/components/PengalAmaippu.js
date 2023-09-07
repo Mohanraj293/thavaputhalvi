@@ -1,31 +1,15 @@
 import React from "react";
 import image from "../assets/pengal-amaippu-images/image2.png";
 import "../css/PengalAmaippu.css";
-import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
 
 const PengalAmaippu = ({ title }) => {
   document.title = title;
   return (
     <div className="pengal" style={{ marginTop: "80px" }}>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <img src={thavaputhalvi} height={60} width={200} alt="" />
-      </div>
-
-      <h5 style={{ color: "#0B0B45" }}>
-        நீயே உன்னால் உனக்காக அறக்கட்டளையின் நோக்கத்தின் அடிப்படையில்
-        உருவாக்கப்பட்ட பெண்கள் அமைப்பு
-      </h5>
-
-      <h5 style={{ color: "#0B0B45" }}>
+      <h5 style={{ color: "#ff2e99", fontWeight: "bold" }}>
         ASSOCIATION FOR WOMEN EMPOWERMENT AND CHILD DEVELOPMENT
       </h5>
-      <h5 style={{ color: "#0B0B45" }}>
+      <h5 style={{ color: "#00008B" }}>
         பெண்கள் அதிகாரம் மற்றும் குழந்தைகள் மேம்பாடு சங்கம் தமிழ்நாடு, இந்தியா
         Email: awecdyoutrust@gmail.com Call / Whatsapp : +91-9585212775
       </h5>
@@ -37,7 +21,7 @@ const PengalAmaippu = ({ title }) => {
       <h2 style={{ color: "#ff2e99" }}>
         <strong>இலக்கு</strong>
       </h2>
-      <p style={{ color: "#0B0B45" }}>
+      <p style={{ color: "#00008B" }}>
         பெண்ணுக்கு கல்வி மற்றும் அதிகாரம் அளித்து, மேம்படுத்தி சமூகத்தில் சரியான
         முறையில் பங்கேற்க செய்து வீட்டின் மற்றும் நாட்டின் வளர்ச்சிக்கு
         வழிவகுப்பது
@@ -54,22 +38,30 @@ const PengalAmaippu = ({ title }) => {
           alignItems: "center",
         }}
       >
-        <li>
+        <li style={{ color: "#00008B" }}>
           உடல் மற்றும் மன ஆரோக்கிய விழிப்புணர்வு மற்றும் மருத்துவ முகாம்களை
           நடத்துதல்
         </li>
-        <li>உளவியல் ஆலோசனை வழங்குதல்</li>
-        <li>சட்ட உரிமைகள் மற்றும் பொது விழிப்புணர்வை ஏற்படுத்துதல்</li>
-        <li>
+        <li style={{ color: "#00008B" }}>உளவியல் ஆலோசனை வழங்குதல்</li>
+        <li style={{ color: "#00008B" }}>
+          சட்ட உரிமைகள் மற்றும் பொது விழிப்புணர்வை ஏற்படுத்துதல்
+        </li>
+        <li style={{ color: "#00008B" }}>
           தொழில் முனைவு பயிற்சி அளித்து , பெண் தொழில் முனைவோரை உருவாக்குதல்
         </li>
-        <li>அதிகாரமளிப்பு பற்றிய கருத்தரங்குகள் நடத்தி பெண்களை ஊக்குவித்தல்</li>
-        <li>
+        <li style={{ color: "#00008B" }}>
+          அதிகாரமளிப்பு பற்றிய கருத்தரங்குகள் நடத்தி பெண்களை ஊக்குவித்தல்
+        </li>
+        <li style={{ color: "#00008B" }}>
           குழந்தைகளை அவர்களின் கல்வி மற்றும் பாடநெறிக்கு அப்பாற்பட்ட செயல்களில்
           சாதிக்க தூண்டுதல்
         </li>
-        <li>திறன் வளர்ப்பு பயிற்சி பட்டறை நடத்துதல்</li>
-        <li>குழந்தைகளின் சிறப்புத் திறமைகளைக் கண்டறிந்து விருதுகள் அளித்தல்</li>
+        <li style={{ color: "#00008B" }}>
+          திறன் வளர்ப்பு பயிற்சி பட்டறை நடத்துதல்
+        </li>
+        <li style={{ color: "#00008B" }}>
+          குழந்தைகளின் சிறப்புத் திறமைகளைக் கண்டறிந்து விருதுகள் அளித்தல்
+        </li>
       </ul>
     </div>
   );
