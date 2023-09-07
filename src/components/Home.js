@@ -4,10 +4,7 @@ import image from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
 
 const Home = ({ title }) => {
-  document.title = title;
-  const txtCol = {
-    color: "#00008B",
-  };
+  document.title = title
   return (
     <div className="homediv">
       <img src={image} height={200} width={200} alt="home logo" />
