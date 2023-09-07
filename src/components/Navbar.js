@@ -101,7 +101,7 @@ function Navbar() {
               ஆசிரியர் குழு
             </NavLink>
             <NavLink to="/பெண்கள்அமைப்பு" className="pe-3">
-              பெண்கள்அமைப்பு
+              பெண்கள் அமைப்பு
             </NavLink>
             <NavLink to="/இதழ்கள்" className="pe-3">
               இதழ்கள்

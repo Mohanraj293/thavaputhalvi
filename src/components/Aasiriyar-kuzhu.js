@@ -106,16 +106,16 @@ const Aasiriyarkuzhu = ({ title }) => {
       <h4 style={{ color: "#ff2e99" }}>
         <strong>இதழாசிரியர்</strong>
       </h4>
-      <p style={{ color: "#00008B" }}>
-        முனைவர். சுபத்ரா செல்லத்துரை M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc
-        (Psy.), UGC-NET, Ph.D.
+      <p style={{ color: "#00008B", margin:"1px", fontSize:"16px" }}>
+        முனைவர். சுபத்ரா செல்லத்துரை <br />
+        M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
       </p>
-      <p style={{ color: "#00008B" }}>
+      <p style={{ color: "#00008B", margin:"1px" }}>
         உதவிப் பேராசிரியர் &amp; ஆராய்ச்சி மேற்பார்வையாளர், வணிகவியல் துறை,
         பயோனியர் குமாரசாமி கல்லூரி, நாகர்கோவில் - 629003, தமிழ்நாடு, இந்தியா
       </p>
-      <p style={{ color: "#00008B" }}>
-        Per-Website:{" "}
+      <p style={{ color: "#00008B", margin:"1px" }}>
+        Website:{" "}
         <a
           rel="noreferrer"
           href="https://subathrachelladurai.in"
@@ -124,19 +124,9 @@ const Aasiriyarkuzhu = ({ title }) => {
         >
           https://subathrachelladurai.in
         </a>
-        , Off-Website:{" "}
-        <a
-          style={{ color: "#00008B" }}
-          rel="noreferrer"
-          href="https://thavaputhalvi.in"
-          target="_blank"
-        >
-          https://thavaputhalvi.in
-        </a>
       </p>
-      <p style={{ color: "#00008B" }}>
-        Per-E-Mail: drcsubathra@gmail.com , Off-Email:{" "}
-        thavaputhalviyoutrust@gmail.com
+      <p style={{ color: "#00008B", margin:"1px" }}>
+        E-Mail: drcsubathra@gmail.com
       </p>
       <p style={{ color: "#00008B" }}>
         Contact: 91-86103 11546 / +91-95852 12775 (Whatsapp)
@@ -156,7 +146,15 @@ const Aasiriyarkuzhu = ({ title }) => {
         >
           {sub.map((data, i) => (
             <li>
-              <p style={{ color: "#00008B", marginBottom:"1px", fontWeight:"bold" }}>{data.name}</p>
+              <p
+                style={{
+                  color: "#00008B",
+                  marginBottom: "1px",
+                  fontWeight: "bold",
+                }}
+              >
+                {data.name}
+              </p>
               <p style={{ color: "#00008B" }}>{data.role}</p>
             </li>
           ))}

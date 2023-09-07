@@ -4,7 +4,10 @@ import image from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
 
 const Home = ({ title }) => {
-  document.title = title
+  document.title = title;
+  const txtWeignt = {
+    fontWeight: "bold",
+  };
   return (
     <div className="homediv">
       <img src={image} height={200} width={200} alt="home logo" />
@@ -36,8 +39,8 @@ const Home = ({ title }) => {
         </p>
 
         <div>
-          <p style={{ fontSize: "17px", color: "#00008B", fontWeight: "bold" }}>
-            <i>
+          <p style={{ fontSize: "17px", color: "#00008B" }}>
+            <i style={txtWeignt}>
               முற்போக்கு நோக்கில்
               <br />
               முரண்பாடு இல்லாத கருத்துக்களுடன்
@@ -53,8 +56,8 @@ const Home = ({ title }) => {
                 style={{
                   color: "#ff2e99",
                   fontSize: "17px",
-                  fontWeight: "bold",
-                  marginLeft:"-25px"
+
+                  marginLeft: "-25px",
                 }}
               >
                 தவப்புதல்வி
