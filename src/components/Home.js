@@ -48,9 +48,10 @@ const Home = ({ title }) => {
       <p
         style={{
           color: "#ff2e99",
-          fontSize: "18px",
+          fontSize: "17px",
           textAlign: "center",
-          fontWeight:"bold"
+          fontWeight: "bold",
+          margin: "-3px",
         }}
       >
         தவப்புதல்வி
