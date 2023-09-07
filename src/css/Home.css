@@ -6,16 +6,11 @@ body {
 
 .homediv {
   padding: 20px;
-  text-align: center;
   margin-top: 70px;
 }
 
-div h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-div p {
-  font-size: 16px;
-  margin-bottom: 10px;
+.tstyle {
+  font-weight: bold;
+  color: #00008b;
+  text-align: center;
 }

@@ -5,19 +5,20 @@ import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
 
 const Home = ({ title }) => {
   document.title = title;
-  const txtWeignt = {
-    fontWeight: "bold",
-  };
   return (
     <div className="homediv">
-      <img src={image} height={200} width={200} alt="home logo" />
-      <div>
-        <h1>
-          <img height={60} width={200} src={thavaputhalvi} alt="" />
-        </h1>
+      <div
+        style={{
+          display: "grid ",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img src={image} height={200} width={200} alt="home logo" />
+        <br />
+        <img height={60} width={200} src={thavaputhalvi} alt="" />
         <h4 style={{ color: "#ff2e99" }}>(தமிழ் காலாண்டிதழ்)</h4>
       </div>
-
       <div style={{ margin: "auto", maxWidth: 800, textIndent: "20px" }}>
         <p
           style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}
@@ -37,35 +38,23 @@ const Home = ({ title }) => {
           தமிழில் இவ்வனைத்தையும் தொகுத்து வாசகர்களுக்கு இணைய வழியும்,
           புத்தகமாகவும் வருடத்திற்கு 4 இதழ்கள் வெளியிடப்படும்.
         </p>
-
-        <div>
-          <p style={{ fontSize: "17px", color: "#00008B" }}>
-            <i style={txtWeignt}>
-              முற்போக்கு நோக்கில்
-              <br />
-              முரண்பாடு இல்லாத கருத்துக்களுடன்
-              <br />
-              தெளிவான சிந்தனை கொண்டு
-              <br />
-              உண்மையின் உருவாய்
-              <br />
-              மாற்றத்தை நோக்கிய பயணத்தில்
-              <br />
-              வலம் வருவாள்{" "}
-              <p
-                style={{
-                  color: "#ff2e99",
-                  fontSize: "17px",
-
-                  marginLeft: "-25px",
-                }}
-              >
-                தவப்புதல்வி
-              </p>
-            </i>
-          </p>
-        </div>
       </div>
+      <p className="tstyle">முற்போக்கு நோக்கில்</p>
+      <p className="tstyle">முரண்பாடு இல்லாத கருத்துக்களுடன்</p>
+      <p className="tstyle">தெளிவான சிந்தனை கொண்டு</p>
+      <p className="tstyle">உண்மையின் உருவாய்</p>
+      <p className="tstyle">மாற்றத்தை நோக்கிய பயணத்தில்</p>
+      <p className="tstyle">வலம் வருவாள்</p>
+      <p
+        style={{
+          color: "#ff2e99",
+          fontSize: "18px",
+          textAlign: "center",
+          fontWeight:"bold"
+        }}
+      >
+        தவப்புதல்வி
+      </p>
     </div>
   );
 };
