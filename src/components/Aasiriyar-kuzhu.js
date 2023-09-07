@@ -141,7 +141,6 @@ const Aasiriyarkuzhu = ({ title }) => {
             textAlign: "left",
             justifyContent: "center",
             alignItems: "center",
-            padding: "20px",
           }}
         >
           {sub.map((data, i) => (
