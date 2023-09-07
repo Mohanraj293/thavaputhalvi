@@ -55,11 +55,12 @@ const Home = ({ title }) => {
               <p
                 style={{
                   color: "#ff2e99",
-                  fontSize: "18px",
+                  fontSize: "17px",
                   fontWeight: "bold",
+                  marginLeft:"-25px"
                 }}
               >
-                <strong>தவப்புதல்வி</strong>
+                தவப்புதல்வி
               </p>
             </i>
           </p>
