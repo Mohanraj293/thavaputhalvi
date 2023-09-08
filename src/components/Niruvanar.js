@@ -24,7 +24,7 @@ const Niruvanar = ({ title }) => {
       <div>
         <p style={{ color: "#ff2e99", fontWeight: "bold" }}>
           <span>முனைவர்.</span>{" "}
-          <span style={{ fontSize: "22px" }}>சுபத்ரா செல்லத்துரை</span>
+          <span style={{ fontSize: "18px" }}>சுபத்ரா செல்லத்துரை</span>
         </p>
       </div>
       {/* <div style={{ marginTop: "20px" }}>

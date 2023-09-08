@@ -110,7 +110,10 @@ const Aasiriyarkuzhu = ({ title }) => {
     <div className="aasiriyar" style={{ marginTop: "70px" }}>
       {/* <h1 style={{ color: "#ff2e99", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
       <h2 style={{ color: "#00008B", textAlign: "center" }}>
-        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி (தமிழ் காலாண்டிதழ்)
+        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி
+      </h2>
+      <h2 style={{ color: "#00008B", textAlign: "center", fontSize: "19px" }}>
+        (தமிழ் காலாண்டிதழ்)
       </h2>
       <div
         style={{
@@ -125,8 +128,12 @@ const Aasiriyarkuzhu = ({ title }) => {
         <strong>இதழாசிரியர்</strong>
       </h4>
       <p style={{ color: "#00008B", margin: "1px", fontSize: "16px" }}>
-        முனைவர். சுபத்ரா செல்லத்துரை <br />
-        M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
+        முனைவர்.
+        <span style={{ fontWeight: "bold", fontSize: "16px" }}>
+          {" "}
+          சுபத்ரா செல்லத்துரை <br />
+          M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
+        </span>
       </p>
       <p style={{ color: "#00008B", margin: "1px" }}>
         உதவிப் பேராசிரியர் &amp; ஆராய்ச்சி மேற்பார்வையாளர், வணிகவியல் துறை,

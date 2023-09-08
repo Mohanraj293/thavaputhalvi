@@ -57,20 +57,22 @@ const Nigazhvugal = ({ title }) => {
           <img src={image17} alt="Nigalvugal 7" />
         </div>
         <div className="gallery-item">
+          <img src={image20} alt="Nigalvugal 10" />
+        </div>
+        <div className="gallery-item">
           <img src={image18} alt="Nigalvugal 8" />
         </div>
         <div className="gallery-item">
           <img src={image19} alt="Nigalvugal 9" />
         </div>
         <div className="gallery-item">
-          <img src={image20} alt="Nigalvugal 10" />
+          <img src={image22} alt="Nigalvugal 10" />
         </div>
+
         {/* <div className="gallery-item">
           <img src={image21} alt="Nigalvugal 10" />
         </div> */}
-        <div className="gallery-item">
-          <img src={image22} alt="Nigalvugal 10" />
-        </div>
+
         <div className="gallery-item">
           <img src={image1} alt="Nigalvugal 1" />
         </div>
