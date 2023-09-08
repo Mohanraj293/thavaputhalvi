@@ -22,9 +22,10 @@ const Niruvanar = ({ title }) => {
         <img style={frameStyles} src={image1} alt="niruvanar" />
       </div>
       <div>
-        <h4 style={{ color: "#ff2e99", fontWeight: "bold" }}>
-          முனைவர். சுபத்ரா செல்லத்துரை
-        </h4>
+        <p style={{ color: "#ff2e99", fontWeight: "bold" }}>
+          <span>முனைவர்.</span>{" "}
+          <span style={{ fontSize: "22px" }}>சுபத்ரா செல்லத்துரை</span>
+        </p>
       </div>
       {/* <div style={{ marginTop: "20px" }}>
         <img src={image2} alt="" height={100} width={100} />

@@ -15,10 +15,26 @@ const Home = ({ title }) => {
         }}
       >
         <img src={image} height={200} width={200} alt="home logo" />
-        <br />
-        <img height={60} width={200} src={thavaputhalvi} alt="" />
-        <h4 style={{ color: "#ff2e99" }}>(தமிழ் காலாண்டிதழ்)</h4>
       </div>
+      <div
+        style={{
+          display: "grid ",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img height={60} width={200} src={thavaputhalvi} alt="" />
+      </div>
+      <h4
+        style={{
+          color: "#ff2e99",
+          display: "grid ",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        (தமிழ் காலாண்டிதழ்)
+      </h4>
       <div style={{ margin: "auto", maxWidth: 800, textIndent: "20px" }}>
         <p
           style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}

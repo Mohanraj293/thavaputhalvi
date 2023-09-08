@@ -20,7 +20,7 @@ import image17 from "../assets/nigalvugal-images/image17.jpeg";
 import image18 from "../assets/nigalvugal-images/image18.jpeg";
 import image19 from "../assets/nigalvugal-images/image19.jpeg";
 import image20 from "../assets/nigalvugal-images/image20.jpeg";
-import image21 from "../assets/nigalvugal-images/image21.jpeg";
+// import image21 from "../assets/nigalvugal-images/image21.jpeg";
 import image22 from "../assets/nigalvugal-images/image22.jpeg";
 
 const Nigazhvugal = ({ title }) => {
@@ -65,9 +65,9 @@ const Nigazhvugal = ({ title }) => {
         <div className="gallery-item">
           <img src={image20} alt="Nigalvugal 10" />
         </div>
-        <div className="gallery-item">
+        {/* <div className="gallery-item">
           <img src={image21} alt="Nigalvugal 10" />
-        </div>
+        </div> */}
         <div className="gallery-item">
           <img src={image22} alt="Nigalvugal 10" />
         </div>

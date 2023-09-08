@@ -11,13 +11,13 @@ const Ithazgal = ({ title }) => {
 
   const books = [
     {
-      title: "JAN MARCH ISSUE 2023",
+      title: "JAN-MARCH-ISSUE-2023",
       year: 2023,
       pdfUrl: JanMarchPdf,
       label: JanMarchImage,
     },
     {
-      title: "APRIL JUNE ISSUE 2023",
+      title: "APRIL-JUNE-ISSUE-2023",
       year: 2023,
       pdfUrl: AprilPdf,
       label: AprilImage,

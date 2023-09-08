@@ -10,8 +10,10 @@ const PengalAmaippu = ({ title }) => {
         ASSOCIATION FOR WOMEN EMPOWERMENT AND CHILD DEVELOPMENT
       </h5>
       <h5 style={{ color: "#00008B" }}>
-        பெண்கள் அதிகாரம் மற்றும் குழந்தைகள் மேம்பாடு சங்கம் தமிழ்நாடு, இந்தியா
-        Email: awecdyoutrust@gmail.com Call / Whatsapp : +91-9585212775
+        பெண்கள் அதிகாரம் மற்றும் குழந்தைகள் மேம்பாடு சங்கம் தமிழ்நாடு, இந்தியா.
+        <br />
+        Email: awecdyoutrust@gmail.com
+        <br /> Call / Whatsapp : +91-9585212775
       </h5>
       <img
         style={{ display: "flex", width: 300, margin: "auto" }}
@@ -36,6 +38,7 @@ const PengalAmaippu = ({ title }) => {
           textAlign: "left",
           justifyContent: "center",
           alignItems: "center",
+          marginLeft: "auto",
         }}
       >
         <li style={{ color: "#00008B" }}>
