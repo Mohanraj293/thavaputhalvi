@@ -75,7 +75,7 @@ const Niruvanar = ({ title }) => {
           </div>
           <div className="contact-info">
             <p style={{ color: "#00008B" }}>
-              Call / Whatsapp : +91-86103 11546
+              Call / Whatsapp : +91-9585212775
             </p>
           </div>
         </div>

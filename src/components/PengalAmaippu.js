@@ -32,12 +32,7 @@ const PengalAmaippu = ({ title }) => {
       <h2 style={{ color: "#D90166" }}>
         <strong>நோக்கம்</strong>
       </h2>
-      <ul
-        style={{
-          listStyle: "none",
-          padding: "0",
-        }}
-      >
+      <ul>
         <li style={{ color: "#00008B" }}>
           உடல் மற்றும் மன ஆரோக்கிய விழிப்புணர்வு மற்றும் மருத்துவ முகாம்களை
           நடத்துதல்
