@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.homediv {
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.tstyle {
+  font-weight: bold;
+  color: #00008b;
+  text-align: center;
+  margin: 1px;
+}

@@ -1,0 +1,22 @@
+.navbar {
+  background-size: 0;
+
+}
+.pe-3 {
+  color: white;
+  margin: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  border-radius: 5px;
+  font-size: large;
+}
+.pe-3:hover {
+  background-color: #F79dca;
+  color: white !important;
+}
+
+.active {
+  background-color: white;
+  color: black !important;
+}

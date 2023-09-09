@@ -1,0 +1,15 @@
+.pengal {
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1,
+h5,
+h3 {
+  text-align: center;
+}
+
+ul li {
+  color: #0b0b45;
+}
