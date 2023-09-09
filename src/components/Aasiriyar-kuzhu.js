@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Aasiriyar.css";
 import image1 from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
+import ak from "../assets/home-images/ak.png";
 
 const Aasiriyarkuzhu = ({ title }) => {
   const sub = [
@@ -15,7 +16,7 @@ const Aasiriyarkuzhu = ({ title }) => {
       name: "முனைவர் பேரா. இரா. நாகேஷ்வரி",
       qualification:
         "M.A, MA(Socio.), M.Com(F&C), BA(HRM), M. Phil, PGDCA, PGDGC, PGDCE, M. Sc(Psych.,) Ph.D.",
-      role: "பொருளியல் துறை தலைவர், சீதாலெட்சுமி ஆச்சி மகளிர் கல்லூரி, பள்ளத்தூர்.",
+      role: "முதல்வர், சீதாலெட்சுமி ஆச்சி மகளிர் கல்லூரி, பள்ளத்தூர்.",
       email: "nageshperumal@yahoo.com",
     },
     {
@@ -109,9 +110,13 @@ const Aasiriyarkuzhu = ({ title }) => {
   return (
     <div className="aasiriyar" style={{ marginTop: "70px" }}>
       {/* <h1 style={{ color: "#D90166", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
-      <h2 style={{ color: "#00008B", textAlign: "center" }}>
-        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி
-      </h2>
+      <div
+        style={{
+          textAlign: "center",
+        }}
+      >
+        <img src={ak} height={45} width={700} alt="ak" />
+      </div>
       <h2 style={{ color: "#00008B", textAlign: "center", fontSize: "19px" }}>
         (தமிழ் காலாண்டிதழ்)
       </h2>
@@ -120,9 +125,9 @@ const Aasiriyarkuzhu = ({ title }) => {
           textAlign: "center",
         }}
       >
-        <img src={image1} alt="" height={200} width={200} />
+        <img src={image1} alt="logo" height={200} width={200} />
         <br />
-        <img height={60} width={200} src={thavaputhalvi} alt="" />
+        <img height={60} width={200} src={thavaputhalvi} alt="logo text" />
       </div>
       <h4 style={{ color: "#D90166" }}>
         <strong>இதழாசிரியர்</strong>
