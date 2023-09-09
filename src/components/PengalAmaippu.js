@@ -34,11 +34,8 @@ const PengalAmaippu = ({ title }) => {
       </h2>
       <ul
         style={{
-          display: "grid",
-          textAlign: "left",
-          justifyContent: "center",
-          alignItems: "center",
-          marginLeft: "auto",
+          listStyle: "none",
+          padding: "0",
         }}
       >
         <li style={{ color: "#00008B" }}>

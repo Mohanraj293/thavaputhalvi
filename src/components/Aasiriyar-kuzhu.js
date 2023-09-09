@@ -172,6 +172,8 @@ const Aasiriyarkuzhu = ({ title }) => {
             justifyContent: "center",
             alignItems: "center",
             marginLeft: "auto",
+            listStyle: "none",
+            padding: "0",
           }}
         >
           {sub.map((data, i) => (
