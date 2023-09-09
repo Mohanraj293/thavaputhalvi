@@ -10,19 +10,19 @@ const Niruvanar = ({ title }) => {
   const frameStyles = {
     borderStyle: "solid",
     padding: "7px",
-    borderColor: "#ff2e99",
+    borderColor: "#D90166",
   };
   document.title = title;
   return (
     <div className="niruvanar">
-      <h4 style={{ color: "#ff2e99", fontWeight: "bold" }}>
+      <h4 style={{ color: "#D90166", fontWeight: "bold" }}>
         <strong>நிறுவனர்</strong>
       </h4>
       <div>
         <img style={frameStyles} src={image1} alt="niruvanar" />
       </div>
       <div>
-        <p style={{ color: "#ff2e99", fontWeight: "bold" }}>
+        <p style={{ color: "#D90166", fontWeight: "bold" }}>
           <span>முனைவர்.</span>{" "}
           <span style={{ fontSize: "18px" }}>சுபத்ரா செல்லத்துரை</span>
         </p>

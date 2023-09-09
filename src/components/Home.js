@@ -27,7 +27,7 @@ const Home = ({ title }) => {
       </div>
       <h4
         style={{
-          color: "#ff2e99",
+          color: "#D90166",
           display: "grid ",
           alignItems: "center",
           justifyContent: "center",
@@ -63,7 +63,7 @@ const Home = ({ title }) => {
       <p className="tstyle">வலம் வருவாள்</p>
       <p
         style={{
-          color: "#ff2e99",
+          color: "#D90166",
           fontSize: "17px",
           textAlign: "center",
           fontWeight: "bold",

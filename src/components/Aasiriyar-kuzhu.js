@@ -108,7 +108,7 @@ const Aasiriyarkuzhu = ({ title }) => {
   document.title = title;
   return (
     <div className="aasiriyar" style={{ marginTop: "70px" }}>
-      {/* <h1 style={{ color: "#ff2e99", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
+      {/* <h1 style={{ color: "#D90166", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
       <h2 style={{ color: "#00008B", textAlign: "center" }}>
         காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி
       </h2>
@@ -124,12 +124,19 @@ const Aasiriyarkuzhu = ({ title }) => {
         <br />
         <img height={60} width={200} src={thavaputhalvi} alt="" />
       </div>
-      <h4 style={{ color: "#ff2e99" }}>
+      <h4 style={{ color: "#D90166" }}>
         <strong>இதழாசிரியர்</strong>
       </h4>
-      <p style={{ color: "#00008B", margin: "1px", fontSize: "16px" }}>
+      <p
+        style={{
+          fontWeight: "bold",
+          color: "#00008B",
+          margin: "1px",
+          fontSize: "16px",
+        }}
+      >
         முனைவர்.
-        <span style={{ fontWeight: "bold", fontSize: "16px" }}>
+        <span style={{ fontSize: "16px" }}>
           {" "}
           சுபத்ரா செல்லத்துரை <br />
           M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
@@ -154,7 +161,7 @@ const Aasiriyarkuzhu = ({ title }) => {
         E-Mail: drcsubathra@gmail.com
       </p>
       <p style={{ color: "#00008B" }}>Contact: +91-95852 12775 (Whatsapp)</p>
-      <h4 style={{ color: "#ff2e99" }}>
+      <h4 style={{ color: "#D90166" }}>
         <strong>உதவி ஆசிரியர் குழு</strong>
       </h4>
       <div>

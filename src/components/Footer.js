@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 
 export default function App() {
   const footerStyle = {
-    backgroundColor: "#ff2e99",
+    backgroundColor: "#D90166",
     color: "white",
     marginTop: "auto",
   };

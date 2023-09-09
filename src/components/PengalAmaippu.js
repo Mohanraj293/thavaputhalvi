@@ -6,7 +6,7 @@ const PengalAmaippu = ({ title }) => {
   document.title = title;
   return (
     <div className="pengal" style={{ marginTop: "80px" }}>
-      <h5 style={{ color: "#ff2e99", fontWeight: "bold" }}>
+      <h5 style={{ color: "#D90166", fontWeight: "bold" }}>
         ASSOCIATION FOR WOMEN EMPOWERMENT AND CHILD DEVELOPMENT
       </h5>
       <h5 style={{ color: "#00008B" }}>
@@ -20,7 +20,7 @@ const PengalAmaippu = ({ title }) => {
         src={image}
         alt="logo"
       />
-      <h2 style={{ color: "#ff2e99" }}>
+      <h2 style={{ color: "#D90166" }}>
         <strong>இலக்கு</strong>
       </h2>
       <p style={{ color: "#00008B" }}>
@@ -29,7 +29,7 @@ const PengalAmaippu = ({ title }) => {
         வழிவகுப்பது
       </p>
 
-      <h2 style={{ color: "#ff2e99" }}>
+      <h2 style={{ color: "#D90166" }}>
         <strong>நோக்கம்</strong>
       </h2>
       <ul

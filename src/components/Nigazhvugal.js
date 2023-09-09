@@ -31,7 +31,7 @@ const Nigazhvugal = ({ title }) => {
         style={{
           textAlign: "center",
           marginTop: "10px",
-          color: "#ff2e99",
+          color: "#D90166",
           fontWeight: "bold",
         }}
       >

@@ -8,12 +8,12 @@ const Nirvagam = ({ title }) => {
   return (
     <div className="nirvagam" style={{ marginTop: "70px", padding: "20px" }}>
       <img src={image1} alt="nirvagam" />
-      <h4 style={{ color: "#ff2e99", fontSize: "22px", fontWeight: "bold" }}>
+      <h4 style={{ color: "#D90166", fontSize: "22px", fontWeight: "bold" }}>
         <strong>நீயே உன்னால் உனக்காக அறக்கட்டளை</strong>
       </h4>
       <p style={{ color: "#00008B", margin: "1px" }}>
-        அறக்கட்டளை பதிவு எண்.198/ B4 – 2017, ISO - 9001-2015 தரச் சான்றிதழ் எண்
-        :UCS8022-23B10664
+        அறக்கட்டளை பதிவு எண்.198/ B4 – 2017,
+        <br /> ISO - 9001-2015 தரச் சான்றிதழ் எண் :UCS8022-23B10664
       </p>
       <p style={{ color: "#00008B", margin: "1px" }}>
         CSR பதிவு எண் CSR00036108,
@@ -70,10 +70,10 @@ const Nirvagam = ({ title }) => {
         </p>
       </div>
       <div style={{ textAlign: "justify" }}>
-        <h4 style={{ marginTop: "30px", color: "#ff2e99", fontWeight: "bold" }}>
+        <h4 style={{ marginTop: "30px", color: "#D90166", fontWeight: "bold" }}>
           அறக்கட்டளையின் முக்கியச் செயல்பாடுகள்
         </h4>
-        <ul style={{ marginLeft: "auto" }}>
+        <ul>
           <li style={{ color: "#00008B" }}>ஆராய்ச்சி மற்றும் பதிப்பு</li>
           <li style={{ color: "#00008B" }}>திறன் மேம்பாடு மற்றும் பயிற்சி</li>
           <li style={{ color: "#00008B" }}>

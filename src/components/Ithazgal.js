@@ -26,7 +26,7 @@ const Ithazgal = ({ title }) => {
 
   return (
     <div style={{ padding: "10px", marginTop: "88px" }}>
-      <h1 style={{ textAlign: "center", color: "#ff2e99", fontWeight: "bold" }}>
+      <h1 style={{ textAlign: "center", color: "#D90166", fontWeight: "bold" }}>
         இதழ்கள்
       </h1>
       <MDBRow style={{ maxWidth: "1000px", margin: "auto" }}>
