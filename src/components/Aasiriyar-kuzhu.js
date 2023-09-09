@@ -2,7 +2,6 @@ import React from "react";
 import "../css/Aasiriyar.css";
 import image1 from "../assets/home-images/THAVAPUTHALVI  LOGO.png";
 import thavaputhalvi from "../assets/home-images/THAVAPPUTHALVI-TEXT.png";
-import ak from "../assets/home-images/ak.png";
 
 const Aasiriyarkuzhu = ({ title }) => {
   const sub = [
@@ -109,26 +108,21 @@ const Aasiriyarkuzhu = ({ title }) => {
   document.title = title;
   return (
     <div className="aasiriyar" style={{ marginTop: "70px" }}>
-      {/* <h1 style={{ color: "#D90166", fontWeight: "bold" }}>ஆசிரியர் குழு</h1> */}
       <div
         style={{
           textAlign: "center",
         }}
       >
-        <img src={ak} height={45} width={700} alt="ak" />
+        <img src={image1} alt="" height={200} width={200} />
+        <br />
+        <img height={60} width={200} src={thavaputhalvi} alt="" />
       </div>
-      <h2 style={{ color: "#00008B", textAlign: "center", fontSize: "19px" }}>
+      <h2 style={{ color: "#00008B", textAlign: "center", fontSize: "19px", margin:"0" }}>
         (தமிழ் காலாண்டிதழ்)
       </h2>
-      <div
-        style={{
-          textAlign: "center",
-        }}
-      >
-        <img src={image1} alt="logo" height={200} width={200} />
-        <br />
-        <img height={60} width={200} src={thavaputhalvi} alt="logo text" />
-      </div>
+      <p style={{ color: "#00008B", textAlign: "center" }}>
+        காணவிரும்பும் மாற்றமாய் : மாற்றத்தை நோக்கி
+      </p>
       <h4 style={{ color: "#D90166" }}>
         <strong>இதழாசிரியர்</strong>
       </h4>
@@ -137,15 +131,15 @@ const Aasiriyarkuzhu = ({ title }) => {
           fontWeight: "bold",
           color: "#00008B",
           margin: "1px",
-          fontSize: "16px",
+          fontSize: "15px",
         }}
       >
         முனைவர்.
-        <span style={{ fontSize: "16px" }}>
+        <span style={{ fontSize: "20px" }}>
           {" "}
           சுபத்ரா செல்லத்துரை <br />
-          M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
         </span>
+        <span>M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.</span>
       </p>
       <p style={{ color: "#00008B", margin: "1px" }}>
         உதவிப் பேராசிரியர் &amp; ஆராய்ச்சி மேற்பார்வையாளர், வணிகவியல் துறை,
