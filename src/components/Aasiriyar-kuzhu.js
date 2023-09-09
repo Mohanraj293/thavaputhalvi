@@ -12,7 +12,7 @@ const Aasiriyarkuzhu = ({ title }) => {
       email: "winnerkumaresan@gmail.com",
     },
     {
-      name: "முனைவர் பேரா. இரா. நாகேஸ்வரி",
+      name: "முனைவர் பேரா. இரா. நாகேஷ்வரி",
       qualification:
         "M.A, MA(Socio.), M.Com(F&C), BA(HRM), M. Phil, PGDCA, PGDGC, PGDCE, M. Sc(Psych.,) Ph.D.",
       role: "பொருளியல் துறை தலைவர், சீதாலெட்சுமி ஆச்சி மகளிர் கல்லூரி, பள்ளத்தூர்.",

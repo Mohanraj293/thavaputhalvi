@@ -73,7 +73,7 @@ const Nirvagam = ({ title }) => {
         <h4 style={{ marginTop: "30px", color: "#D90166", fontWeight: "bold" }}>
           அறக்கட்டளையின் முக்கியச் செயல்பாடுகள்
         </h4>
-        <ul style={{ listStyle: "none", padding: "0" }}>
+        <ul>
           <li style={{ color: "#00008B" }}>ஆராய்ச்சி மற்றும் பதிப்பு</li>
           <li style={{ color: "#00008B" }}>திறன் மேம்பாடு மற்றும் பயிற்சி</li>
           <li style={{ color: "#00008B" }}>

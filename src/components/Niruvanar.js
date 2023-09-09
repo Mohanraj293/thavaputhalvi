@@ -7,11 +7,7 @@ import image1 from "../assets/nivagam-images/image3.png";
 // import image5 from "../assets/niruvanar-images/image5.png";
 
 const Niruvanar = ({ title }) => {
-  const frameStyles = {
-    borderStyle: "solid",
-    padding: "7px",
-    borderColor: "#D90166",
-  };
+
   document.title = title;
   return (
     <div className="niruvanar">
@@ -19,7 +15,7 @@ const Niruvanar = ({ title }) => {
         <strong>நிறுவனர்</strong>
       </h4>
       <div>
-        <img style={frameStyles} src={image1} alt="niruvanar" />
+        <img src={image1} alt="niruvanar" />
       </div>
       <div>
         <p style={{ color: "#D90166", fontWeight: "bold" }}>
@@ -33,7 +29,7 @@ const Niruvanar = ({ title }) => {
         <img src={image4} alt="" height={100} width={100} />
         <img src={image5} alt="" height={100} width={100} />
       </div> */}
-      <p style={{ color: "#00008B" }}>
+      <p style={{ color: "#00008B", fontWeight:"bold" }}>
         M.Com., M.Phil., PGDHRM, M. A (Soc.), M.Sc (Psy.), UGC-NET, Ph.D.
       </p>
       <p style={{ color: "#00008B" }}>
