@@ -1,7 +1,5 @@
 import React from "react";
 import Ithaz from "./Ithaz";
-import AprilPdf from "../assets/ithazgal-pdf/APRIL-JUNE-ISSUE-2023.pdf";
-import JanMarchPdf from "../assets/ithazgal-pdf/JAN-MARCH ISSUE-2023.pdf";
 import JanMarchImage from "../assets/ithalgal-wrapper/jan-mar.jpeg";
 import AprilImage from "../assets/ithalgal-wrapper/april-une.jpeg";
 import { MDBCol, MDBRow } from "mdb-react-ui-kit";
@@ -13,13 +11,13 @@ const Ithazgal = ({ title }) => {
     {
       title: "JAN-MARCH-ISSUE-2023",
       year: 2023,
-      pdfUrl: JanMarchPdf,
+      pdfUrl: "https://online.fliphtml5.com/cetih/dlfl/#p=12",
       label: JanMarchImage,
     },
     {
       title: "APRIL-JUNE-ISSUE-2023",
       year: 2023,
-      pdfUrl: AprilPdf,
+      pdfUrl: "https://online.fliphtml5.com/cetih/gveo/",
       label: AprilImage,
     },
   ];
