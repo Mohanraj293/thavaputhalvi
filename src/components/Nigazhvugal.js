@@ -19,7 +19,7 @@ import image16 from "../assets/nigalvugal-images/image16.jpeg";
 import image17 from "../assets/nigalvugal-images/image17.jpeg";
 import image18 from "../assets/nigalvugal-images/image18.jpeg";
 import image19 from "../assets/nigalvugal-images/image19.jpeg";
-import image20 from "../assets/nigalvugal-images/image20.jpeg";
+import image20 from "../assets/nigalvugal-images/image20a.jpeg";
 // import image21 from "../assets/nigalvugal-images/image21.jpeg";
 import image22 from "../assets/nigalvugal-images/image22.jpeg";
 
