@@ -44,6 +44,7 @@ import image43 from "../assets/nigalvugal-images/image43.jpeg";
 import image44 from "../assets/nigalvugal-images/image44.jpeg";
 import image45 from "../assets/nigalvugal-images/image45.jpeg";
 import image46 from "../assets/nigalvugal-images/image46.jpeg";
+import image47 from "../assets/nigalvugal-images/image47.jpeg";
 
 const Nigazhvugal = ({ title }) => {
   document.title = title;
@@ -60,6 +61,9 @@ const Nigazhvugal = ({ title }) => {
         நிகழ்வுகள்
       </h1>
       <div className="gallery">
+      <div className="gallery-item">
+          <img src={image47} alt="Nigalvugal 47" />
+        </div>
         <div className="gallery-item">
           <img src={image23} alt="Nigalvugal 23" />
         </div>
