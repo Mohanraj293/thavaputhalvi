@@ -121,13 +121,13 @@ const Nigazhvugal = ({ title }) => {
           <img src={image42} alt="Nigalvugal 42" />
         </div>
         <div className="gallery-item">
+          <img src={image45} alt="Nigalvugal 45" />
+        </div>
+        <div className="gallery-item">
           <img src={image43} alt="Nigalvugal 43" />
         </div>
         <div className="gallery-item">
           <img src={image44} alt="Nigalvugal 44" />
-        </div>
-        <div className="gallery-item">
-          <img src={image45} alt="Nigalvugal 45" />
         </div>
         <div className="gallery-item">
           <img src={image46} alt="Nigalvugal 46" />
