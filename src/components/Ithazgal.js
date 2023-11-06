@@ -2,6 +2,7 @@ import React from "react";
 import Ithaz from "./Ithaz";
 import JanMarchImage from "../assets/ithalgal-wrapper/jan-mar.jpeg";
 import AprilImage from "../assets/ithalgal-wrapper/april-une.jpeg";
+import JulyImg from "../assets/ithalgal-wrapper/jul-sep.jpeg";
 import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 const Ithazgal = ({ title }) => {
@@ -20,6 +21,12 @@ const Ithazgal = ({ title }) => {
       pdfUrl: "https://online.fliphtml5.com/cetih/gveo/",
       label: AprilImage,
     },
+    {
+      title: "JULY-SEPTEMBER-2023",
+      year: 2023,
+      pdfUrl: "https://online.fliphtml5.com/cetih/lzlo/",
+      label: JulyImg,
+    }
   ];
 
   return (
