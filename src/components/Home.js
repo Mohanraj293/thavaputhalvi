@@ -36,9 +36,7 @@ const Home = ({ title }) => {
         (தமிழ் காலாண்டிதழ்)
       </h4>
       <div style={{ margin: "auto", maxWidth: 800, textIndent: "20px" }}>
-        <p
-          style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}
-        >
+        <p style={{ marginTop: "20px", textAlign: "justify", color: "#00008B" }}>
           தவப்புதல்வி காலாண்டிதழ் ஆண்கள், பெண்கள், இளைஞர்கள், தொழில் முனைவோர்,
           குழந்தைகள் என அனைவருக்கும் பயன்படும் வகையில் அமைவதோடு மட்டுமில்லாமல்
           மாற்றத்தை உருவாக்கும் ஒரு கருவியாகவும் செயல்படும். இவ்விதழில்
