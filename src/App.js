@@ -17,27 +17,27 @@ function App() {
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home title="தவப்புதல்வி" />}></Route>
             <Route
-              path="/நிர்வாகம்"
+              path="/Nirvagam"
               element={<Nirvagam title="நிர்வாகம்" />}
             ></Route>
             <Route
-              path="/நிறுவனர்"
+              path="/Niruvanar"
               element={<Niruvanar title="நிறுவனர்" />}
             ></Route>
             <Route
-              path="/ஆசிரியர்-குழு"
+              path="/Aasiriyar-Kuzhu"
               element={<Aasiriyarkuzhu title="ஆசிரியர்-குழு" />}
             ></Route>
             <Route
-              path="/இதழ்கள்"
+              path="/Ithazhgal"
               element={<Ithazgal title="இதழ்கள்" />}
             ></Route>
             <Route
-              path="/நிகழ்வுகள்"
+              path="/Nigalvugal"
               element={<Nigazhvugal title="நிகழ்வுகள்" />}
             ></Route>
             <Route
-              path="/பெண்கள்அமைப்பு"
+              path="/Pengal-Amaipu"
               element={<PengalAmaippu title="பெண்கள்அமைப்பு" />}
             ></Route>
           </Route>

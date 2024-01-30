@@ -91,22 +91,22 @@ function Navbar() {
             <NavLink to="/" className="pe-3">
               முகப்பு
             </NavLink>
-            <NavLink to="/நிர்வாகம்" className="pe-3">
+            <NavLink to="/Nirvagam" className="pe-3">
               நிர்வாகம்
             </NavLink>
-            <NavLink to="/நிறுவனர்" className="pe-3">
+            <NavLink to="/Niruvanar" className="pe-3">
               நிறுவனர்
             </NavLink>
-            <NavLink to="/ஆசிரியர்-குழு" className="pe-3">
+            <NavLink to="/Aasiriyar-kuzhu" className="pe-3">
               ஆசிரியர் குழு
             </NavLink>
-            <NavLink to="/பெண்கள்அமைப்பு" className="pe-3">
+            <NavLink to="/Pengal-Amaipu" className="pe-3">
               பெண்கள் அமைப்பு
             </NavLink>
-            <NavLink to="/இதழ்கள்" className="pe-3">
+            <NavLink to="/Ithazhgal" className="pe-3">
               இதழ்கள்
             </NavLink>
-            <NavLink to="/நிகழ்வுகள்" className="pe-3">
+            <NavLink to="/Nigalvugal" className="pe-3">
               நிகழ்வுகள்
             </NavLink>
           </MDBNavbarNav>
