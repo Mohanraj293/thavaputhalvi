@@ -4,6 +4,7 @@ import JanMarchImage from "../assets/ithalgal-wrapper/jan-mar.jpeg";
 import AprilImage from "../assets/ithalgal-wrapper/april-une.jpeg";
 import JulyImg from "../assets/ithalgal-wrapper/jul-sep.jpeg";
 import OctImg from "../assets/ithalgal-wrapper/oct-dec.jpeg";
+import JanMarch24Image from "../assets/ithalgal-wrapper/jan-mar-24.jpeg"
 import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 const Ithazgal = ({ title }) => {
@@ -11,16 +12,16 @@ const Ithazgal = ({ title }) => {
 
   const books = [
     {
-      title: "JAN-MARCH-ISSUE-2023",
-      year: 2023,
-      pdfUrl: "https://online.fliphtml5.com/cetih/dlfl/#p=12",
-      label: JanMarchImage,
+      title: "JANUARY-MARCH-ISSUE-2024",
+      year: 2024,
+      pdfUrl: "https://online.fliphtml5.com/cetih/onyp/",
+      label: JanMarch24Image,
     },
     {
-      title: "APRIL-JUNE-ISSUE-2023",
+      title: "OCTOBER-DECEMBER 2023",
       year: 2023,
-      pdfUrl: "https://online.fliphtml5.com/cetih/gveo/",
-      label: AprilImage,
+      pdfUrl: "https://online.fliphtml5.com/cetih/hzta/",
+      label: OctImg,
     },
     {
       title: "JULY-SEPTEMBER-2023",
@@ -29,10 +30,16 @@ const Ithazgal = ({ title }) => {
       label: JulyImg,
     },
     {
-      title: "OCTOBER-DECEMBER 2023",
+      title: "APRIL-JUNE-ISSUE-2023",
       year: 2023,
-      pdfUrl: "https://online.fliphtml5.com/cetih/hzta/",
-      label: OctImg,
+      pdfUrl: "https://online.fliphtml5.com/cetih/gveo/",
+      label: AprilImage,
+    },
+    {
+      title: "JAN-MARCH-ISSUE-2023",
+      year: 2023,
+      pdfUrl: "https://online.fliphtml5.com/cetih/dlfl/#p=12",
+      label: JanMarchImage,
     },
   ];
 
