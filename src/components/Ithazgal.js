@@ -6,12 +6,19 @@ import JulyImg from "../assets/ithalgal-wrapper/jul-sep.jpeg";
 import OctImg from "../assets/ithalgal-wrapper/oct-dec.jpeg";
 import JanMarch24Image from "../assets/ithalgal-wrapper/jan-mar-24.jpeg"
 import AprilJune24Image from "../assets/ithalgal-wrapper/april-june-24.jpeg"
+import JulSep24Image from "../assets/ithalgal-wrapper/jul-sep-24.jpeg"
 import { MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 const Ithazgal = ({ title }) => {
   document.title = title;
 
   const books = [
+    {
+      title: "JULY-SEPTEMBER-2024",
+      year: 2024,
+      pdfUrl: "https://online.fliphtml5.com/wyqyr/svjn/",
+      label: JulSep24Image,
+    },
     {
       title: "APRIL-JUNE-2024",
       year: 2024,
