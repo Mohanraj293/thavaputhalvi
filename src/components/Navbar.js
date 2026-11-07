@@ -89,25 +89,22 @@ function Navbar() {
             onClick={handleNavLinkClick}
           >
             <NavLink to="/" className="pe-3">
-              முகப்பு
-            </NavLink>
-            <NavLink to="/Nirvagam" className="pe-3">
-              நிர்வாகம்
+              Home
             </NavLink>
             <NavLink to="/Niruvanar" className="pe-3">
-              நிறுவனர்
-            </NavLink>
-            <NavLink to="/Aasiriyar-kuzhu" className="pe-3">
-              ஆசிரியர் குழு
-            </NavLink>
-            <NavLink to="/Pengal-Amaipu" className="pe-3">
-              பெண்கள் அமைப்பு
+              Founder
             </NavLink>
             <NavLink to="/Ithazhgal" className="pe-3">
-              இதழ்கள்
+              Tamil Magazine
             </NavLink>
-            <NavLink to="/Nigalvugal" className="pe-3">
-              நிகழ்வுகள்
+            <NavLink to="/Publication" className="pe-3">
+              Publication
+            </NavLink>
+            <NavLink to="/Pengal-Amaipu" className="pe-3">
+              Rural Women Empowerment
+            </NavLink>
+            <NavLink to="/Contact" className="pe-3">
+              Contact
             </NavLink>
           </MDBNavbarNav>
         </MDBCollapse>

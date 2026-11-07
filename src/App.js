@@ -8,6 +8,8 @@ import Nirvagam from "./components/Nirvagam";
 import PageNotFound from "./components/PageNotFound";
 import AppLayout from "./components/AppLayout";
 import Niruvanar from "./components/Niruvanar";
+import Publication from "./components/Publication";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -39,6 +41,14 @@ function App() {
             <Route
               path="/Pengal-Amaipu"
               element={<PengalAmaippu title="பெண்கள்அமைப்பு" />}
+            ></Route>
+            <Route
+              path="/Publication"
+              element={<Publication title="Publication" />}
+            ></Route>
+            <Route
+              path="/Contact"
+              element={<Contact title="Contact" />}
             ></Route>
           </Route>
           <Route
